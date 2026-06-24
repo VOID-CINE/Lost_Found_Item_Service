@@ -1,0 +1,18 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: lost-found-service
+  
+  datasource:
+    url: jdbc:mysql://localhost:3306/voidcine_lost_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
