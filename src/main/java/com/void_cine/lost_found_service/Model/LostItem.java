@@ -3,7 +3,6 @@ package com.void_cine.lost_found_service.Model;
 import jakarta.persistence.*;
 import lombok.Data;
 import java.time.LocalDateTime;
-
 @Entity
 @Table(name = "lost_items")
 @Data
